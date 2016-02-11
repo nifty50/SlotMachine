@@ -74,6 +74,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4BF7021C6C13EB000CF4E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5B70D9B61C6C120D00311634 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 				5B70D9C91C6C120D00311634 /* Assets.xcassets */,
 				5B70D9CB1C6C120D00311634 /* LaunchScreen.storyboard */,
 				5B70D9CE1C6C120D00311634 /* Info.plist */,
+				5B4BF7021C6C13EB000CF4E5 /* Supporting Files */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -484,6 +492,7 @@
 				5B70D9E91C6C120D00311634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B70D9EA1C6C120D00311634 /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				5B70D9EC1C6C120D00311634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B70D9ED1C6C120D00311634 /* Build configuration list for PBXNativeTarget "SlotMachineUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				5B70D9EF1C6C120D00311634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
