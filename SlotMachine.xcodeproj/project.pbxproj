@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1B78E61C6ECE4A00E206E7 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B78E51C6ECE4A00E206E7 /* Slot.swift */; };
+		5B1B78E81C6ED05700E206E7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B78E71C6ED05700E206E7 /* Factory.swift */; };
 		5B70D9C31C6C120D00311634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D9C21C6C120D00311634 /* AppDelegate.swift */; };
 		5B70D9C51C6C120D00311634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D9C41C6C120D00311634 /* ViewController.swift */; };
 		5B70D9C81C6C120D00311634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D9C61C6C120D00311634 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1B78E51C6ECE4A00E206E7 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		5B1B78E71C6ED05700E206E7 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		5B70D9BF1C6C120D00311634 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70D9C21C6C120D00311634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B70D9C41C6C120D00311634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		5B4BF7021C6C13EB000CF4E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B1B78E51C6ECE4A00E206E7 /* Slot.swift */,
+				5B1B78E71C6ED05700E206E7 /* Factory.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1B78E81C6ED05700E206E7 /* Factory.swift in Sources */,
 				5B70D9C51C6C120D00311634 /* ViewController.swift in Sources */,
+				5B1B78E61C6ECE4A00E206E7 /* Slot.swift in Sources */,
 				5B70D9C31C6C120D00311634 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
