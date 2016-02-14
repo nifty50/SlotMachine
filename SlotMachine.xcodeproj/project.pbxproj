@@ -16,6 +16,7 @@
 		5B70D9CD1C6C120D00311634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D9CB1C6C120D00311634 /* LaunchScreen.storyboard */; };
 		5B70D9D81C6C120D00311634 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D9D71C6C120D00311634 /* SlotMachineTests.swift */; };
 		5B70D9E31C6C120D00311634 /* SlotMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D9E21C6C120D00311634 /* SlotMachineUITests.swift */; };
+		5BE80E641C7112B900D490EA /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE80E631C7112B900D490EA /* SlotBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5B70D9DE1C6C120D00311634 /* SlotMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70D9E21C6C120D00311634 /* SlotMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineUITests.swift; sourceTree = "<group>"; };
 		5B70D9E41C6C120D00311634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE80E631C7112B900D490EA /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				5B1B78E51C6ECE4A00E206E7 /* Slot.swift */,
 				5B1B78E71C6ED05700E206E7 /* Factory.swift */,
+				5BE80E631C7112B900D490EA /* SlotBrain.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				5B70D9C51C6C120D00311634 /* ViewController.swift in Sources */,
 				5B1B78E61C6ECE4A00E206E7 /* Slot.swift in Sources */,
 				5B70D9C31C6C120D00311634 /* AppDelegate.swift in Sources */,
+				5BE80E641C7112B900D490EA /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
